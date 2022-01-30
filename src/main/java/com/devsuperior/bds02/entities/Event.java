@@ -38,7 +38,6 @@ public class Event {
 		this.city = city;
 	}
 
-	// TODO
 	public Event(EventDTO dto, City city) {
 		this.id = dto.getId();
 		this.name = dto.getName();
